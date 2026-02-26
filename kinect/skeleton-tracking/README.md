@@ -1,15 +1,28 @@
 # Skeleton Tracking
 
-Reusable Kinect skeleton tracking modules, organized by device version.
+Reusable Kinect skeleton tracking modules.
+
+This function family is organized by **device version**.
 
 ## Available Versions
 
-- v1
-- v2
-- azure
+- `v1`
+- `v2`
+- `azure`
 
 ## Overview
 
-This function family includes skeleton tracking workflows implemented for different Kinect systems.
+This folder contains Kinect-based skeleton tracking workflows for different Kinect systems.
 
-Version-specific details are documented in each version folder.
+## Typical Outputs
+
+- joint positions
+- body or skeleton data
+- tracking state
+- performer presence or player state
+
+## Notes
+
+- Output structure may differ between versions
+- Use the version folder that matches your hardware
+- Check each version README for setup and dependency details
