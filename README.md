@@ -28,10 +28,14 @@ Each module is a self-contained `.tox` file. Drag it into your TouchDesigner pro
 
 Every module follows this structure:
 
+```text
 category/module-name/
-├── module-name.tox    # The component, drag into any project
-├── demo.toe           # Working example
-└── README.md          # What it does, inputs, outputs, dependencies
+|-- module-name.tox    # Main reusable component
+|-- demo.toe           # Working example
+`-- README.md          # What it does, inputs, outputs, and dependencies
+```
+
+
 
 ## Category READMEs
 
@@ -47,12 +51,17 @@ This keeps the root README concise while allowing each category to document its 
 
 ## Naming Convention
 
-kinect-[function].tox      # kinect-skeleton-in.tox
-mp-[function].tox          # mp-hand-tracker.tox
-vfx-[function].tox         # vfx-particles.tox
-sensor-[function].tox      # sensor-mqtt-in.tox
-audio-[function].tox       # audio-analyzer.tox
-util-[function].tox        # util-multi-screen.tox
+All module files follow a consistent naming pattern:
+
+```text
+kinect-[function].tox   # kinect-skeleton-in.tox
+mp-[function].tox       # mp-hand-tracker.tox
+vfx-[function].tox      # vfx-particles.tox
+sensor-[function].tox   # sensor-mqtt-in.tox
+audio-[function].tox    # audio-analyzer.tox
+util-[function].tox     # util-multi-screen.tox
+```
+
 
 ## Definition of Done
 
