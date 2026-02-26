@@ -1,6 +1,3 @@
-# 2. `mediapipe/hand-tracking/README.md`
-
-```md id="cjlwm9"
 # Hand Tracking
 
 Reusable MediaPipe hand tracking workflows.
