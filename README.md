@@ -12,7 +12,7 @@ Built by [tomorrow.lab](https://github.com/tomorrow-lab-open), Wave Pongruengkia
 | `mediapipe/` | Hand tracking, Face tracking / face mesh, Pose tracking, Skeleton tracking, Object tracking | MediaPipe-based tracking and recognition modules                                          |
 | `vfx/`       | Particles, feedback loops, instancing, point cloud, projection mapping                      | Reusable visual effect modules driven by Kinect, camera, or other data sources            |
 | `sensors/`   | Arduino, thermal, Leap Motion, MQTT bridge                                                  | Hardware input and device bridge modules                                                  |
-| `audio/`     | Audio analysis, beat detection, CHOP-driven control                                         | Audio analysis and CHOP-based reactive control modules                                    |
+| `audio/`     | Audio analysis, beat detection                                           | Audio analysis and CHOP-based reactive control modules                                    |
 | `utils/`     | Multi-screen, camera switching, device select, data recording                               | Common utility modules for screen setup, device selection, and recording interactive data |
 
 ## Usage
